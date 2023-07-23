@@ -27,7 +27,7 @@ while (true) {
 }
 
 
-for (let = 0; let < MAX_TRY; let++) {
+for (let = 0; let < MAX_TRY, let++) {
   const userInputNum = prompt ("enter number");
   if (
     userInputNum >= MIN_NUM &&
@@ -44,13 +44,13 @@ for (let = 0; let < MAX_TRY; let++) {
 
 
 const checkMuliplicity = function (
-  maxTry = MAX_TRY;
-  minNumber - MIN_NUM;
-  maxNumber - MAX_NUM;
-  multiplicity - MULTIPLICITY;
-) {
+  maxTry = MAX_TRY,
+  minNumber = MIN_NUM,
+  maxNumber = MAX_NUM,
+  multiplicity = MULTIPLICITY,
+  ) {
   for (let i = 0; i < maxTry; i++) {
-    const userInputNum = prompt (enter Number);
+    const userInputNum = prompt ("enter Number");
 
     if (userInputNum >= minNumber &&
       userInputNum <= maxNumber &&
